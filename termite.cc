@@ -16,6 +16,12 @@
  * Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
  */
 
+/* FIX for FreeBSD */
+#include <errno.h>
+#include <sys/wait.h>
+#define M_PI 3.14159265358979323846
+
+
 #include <algorithm>
 #include <array>
 #include <cstdlib>
